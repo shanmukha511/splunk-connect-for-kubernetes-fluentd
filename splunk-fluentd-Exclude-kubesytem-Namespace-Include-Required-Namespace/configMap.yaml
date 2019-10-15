@@ -217,9 +217,9 @@ data:
       <match **>
         @type splunk_hec
         protocol http
-        hec_host 34.70.51.143
+        hec_host *.*.*.*
         hec_port 8088
-        hec_token a5cb9a00-c0ba-40b9-9705-93cb5c42376c
+        hec_token ******************
         host hostname
         index test
         source_key source
