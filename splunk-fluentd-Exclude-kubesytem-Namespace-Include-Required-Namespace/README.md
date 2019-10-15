@@ -1,5 +1,5 @@
 # splunk-fluentd-manifest
-# Scenario
+# Scenario2
 Manifest file for fluentd deployment
 The scenario includes following:
 1. Exclude logs from kube-system namespace
