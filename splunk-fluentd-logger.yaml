@@ -1,0 +1,11 @@
+  splunk:
+    hec:
+      token: **************************
+      protocol: http
+      host: ********************
+      port: 8088
+      indexName: test
+      # connection to splunk is insecure
+      insecureSSL: true
+  kubernetes:
+    clusterName: "test"
