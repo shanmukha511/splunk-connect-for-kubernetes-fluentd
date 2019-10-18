@@ -1,0 +1,6 @@
+Need to install fluentd as deamonset in kubernetes cluster to send application logs to splunk and restrict logs for namespace required.
+Manifest files like configmap, deamonset are there and text file of enviromnet varibles has to provided in order to pass them to configmap and daemonset.
+Once environment varibles are ready like splunk token ,Host , namespace logs which has to displayed and application log file location has to be given.
+Once have values need to create secret by using file and we will env variables via secrets.
+Command to creat secret "kubectl create secret generic splunk-kubernetes-logging  --from-env-file=test.txt -n prd"
+Once secret got created need to create configmap and daemonset.
