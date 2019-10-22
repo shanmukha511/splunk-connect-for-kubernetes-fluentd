@@ -1,0 +1,5 @@
+splunk_hec_token=d04352ac-1f59-4d80-b87c-a7715ee2d2fa
+splunk_hec_host=35.224.244.72
+splunk_hec_index=test
+select_namespace=/var/log/containers/**_prd_**.log,/var/log/containers/**_dev_**.log
+source_files=/var/log/datasiv/flexi.log,/var/log/datalake/test.log
